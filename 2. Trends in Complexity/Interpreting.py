@@ -52,4 +52,6 @@ for line in enumerate(Information):
     except:
         pass
 
+# This was individually changed for each parameter I wanted a histogram of
+# Could implement a for loop to do all at once?
 Histogram(np.array(InfContent))
