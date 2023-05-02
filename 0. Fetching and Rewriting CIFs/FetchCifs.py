@@ -13,8 +13,11 @@ for i in range(1, 10000000):
         pass
     else:
         try:
+            # Refresh ICSD access
             cl.logout()
             cl = ICSDClient("AVV9002683","icsd591")
+            
+            # Search and fetch cif
             sd = {"collectioncode": str(i)}
             newsearch = cl.advanced_search(sd) 
             item = list(newsearch[0])                                          
