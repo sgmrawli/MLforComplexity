@@ -1,6 +1,7 @@
 This work is for the prediction of total information content of crystal structure CIFs, using the ICSD.
 
 The project is separated into 4 sections:
+
 0. Fetching the CIFs
 1. Calculating the data
 2. Investigating the data
